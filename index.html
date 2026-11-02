@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Вишневка — карта участков</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+<script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script defer src="config.js"></script><script defer src="data.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<header><div><span class="eyebrow">СНТ</span><h1>Вишневка</h1></div><div class="tools"><button id="fit">Все участки</button><button id="refresh">Обновить</button></div></header>
+<main id="map" aria-label="Карта участков"></main>
+<footer><span id="status" role="status">Загрузка карты…</span><span>Подписи: участок · Name</span></footer>
+<noscript>Для карты необходимо включить JavaScript.</noscript>
+</body></html>
